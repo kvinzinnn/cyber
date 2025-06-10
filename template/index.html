@@ -5,21 +5,62 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Cyber Segurança</title>
     <link rel="stylesheet" href="../style/index.css">
-    <script src="./js/script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
 </head>
 <body>
 
     <nav class="sidebar">
         <ul class="menu">
             <li><a href="#">Início</a></li>
-            <li><a href="#">Sobre</a></li>
-            <li><a href="#">Serviços</a></li>
-            <li><a href="#">Contato</a></li>
+            <li><a href="sobre.html">Sobre</a></li>
+            <li><a href="contato.html">Contato</a></li>
         </ul>
+        <button id="theme-toggle" class="theme-toggle">🌙</button>
+        <button id="accessibility-btn" class="accessibility-btn">🅰️</button>
     </nav>
 
     <main>
         <h1 class="titulo">CIBERSEGURANÇA</h1>
+
+        <p class="intro">A segurança da informação é essencial na era digital. Este guia tem como objetivo conscientizar sobre os riscos e práticas de proteção no ambiente online.</p>
+
+        <section class="cards-container">
+            <div class="card">
+                <h2>Segurança nas Redes Sociais</h2>
+                <p>Evite compartilhar informações pessoais, revise suas configurações de privacidade e use autenticação de dois fatores.</p>
+            </div>
+            <div class="card">
+                <h2>Criação de Senhas Fortes</h2>
+                <p>Use senhas longas e complexas. Nunca reutilize senhas e atualize-as com frequência.</p>
+            </div>
+            <div class="card">
+                <h2>Proteção contra Phishing</h2>
+                <p>Desconfie de mensagens suspeitas. Nunca clique em links ou baixe anexos de remetentes desconhecidos.</p>
+            </div>
+            <div class="card">
+                <h2>Navegação Segura</h2>
+                <p>Verifique se o site usa “https://”. Evite redes Wi-Fi públicas para transações importantes.</p>
+            </div>
+            <div class="card">
+                <h2>Dispositivos Móveis</h2>
+                <p>Proteja com senha ou biometria. Baixe apps somente de lojas oficiais e atualize o sistema.</p>
+            </div>
+            <div class="card">
+                <h2>Privacidade e Dados</h2>
+                <p>Leia as políticas de privacidade e compartilhe apenas o necessário.</p>
+            </div>
+        </section>
+
+        <section class="dicas-extra">
+            <h2>Dicas Extras de Proteção Digital</h2>
+            <ul>
+                <li>Ative autenticação em dois fatores.</li>
+                <li>Não use a mesma senha em vários sites.</li>
+                <li>Evite salvar senhas no navegador.</li>
+                <li>Monitore acessos suspeitos nas suas contas.</li>
+            </ul>
+        </section>
     </main>
+    <script src="../js/script.js" defer></script>
 </body>
 </html>
